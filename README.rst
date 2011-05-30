@@ -4,6 +4,13 @@ django-mcauth
 django-mcauth is a pluggable authentication back-end that lets your users
 login with their Minecraft.net user/pass.
 
+.. warning:: Authentication against Minecraft.net auth servers is not
+    officially endorsed, and may cease to work at any time. Using a fallback
+    authentication backend (like Django's default) will prevent complete
+    failure if Notch ever decides to lock things down. Also keep in mind that
+    if you run a high traffic site, you may be asked to stop hitting the
+    Minecraft.net auth server.
+
 Requirements
 ------------
 
@@ -30,6 +37,11 @@ settings.py::
 
 Support
 -------
+
+If you have questions or ideas, or encounter bugs, add an entry to our
+`issue tracker`_.
+
+.. _issue tracker: https://github.com/gtaylor/django-mcauth/issues
   
 License
 -------
