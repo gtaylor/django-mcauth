@@ -1,0 +1,10 @@
+*.pyc
+*.swp
+*.tmp
+*~
+.idea
+.settings
+.pydevproject
+dist
+build
+MANIFEST
