@@ -1,5 +1,10 @@
-django-mcauth
-=============
+django-mcauth (Broken after Minecraft auth re-vamp)
+===================================================
+
+** NOTE: It was only a matter of time until it happened, but it finally did.
+This Django app no longer functions with the latest Minecraft authentication
+system. I'm leaving it here in case anyone wants to adapt it once more (if
+this is even possible/acceptable anymore).**
 
 django-mcauth is a pluggable authentication back-end that lets your users
 login with their Minecraft.net user/pass.
